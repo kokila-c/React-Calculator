@@ -1,0 +1,71 @@
+/* src/App.css */
+body {
+  background-color: hsl(222, 26%, 31%);
+}
+.calculator {
+  max-width: 375px; /* Adjust as needed for mobile */
+  margin: auto;
+  padding: 20px;
+  background-color: hsl(223, 31%, 20%);
+  border-radius: 10px;
+}
+
+.input {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: hsl(224, 36%, 15%);
+  color: hsl(0, 0%, 100%);
+  font-size: 32px;
+  font-family: "League Spartan", sans-serif;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.buttons button {
+  padding: 20px;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  background-color: #eae3db;
+  color: hsl(224, 28%, 35%);
+  font-family: "League Spartan", sans-serif;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.result {
+  margin-top: 10px;
+  font-size: 32px;
+  color: hsl(221, 14%, 31%); /* Text color */
+  text-align: right;
+}
+.big-btn {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Equal width columns */
+  grid-gap: 10px;
+}
+#equals,
+#c {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 24px;
+  font-family: "League Spartan", sans-serif;
+
+  border-radius: 10px;
+}
+#equals {
+  background-color: hsl(6, 63%, 50%);
+  color: white;
+}
+
+#del,
+#c {
+  background-color: hsl(225, 21%, 49%);
+  color: white;
+}
